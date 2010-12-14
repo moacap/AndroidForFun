@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:orientation="vertical">
+	<TextView
+		android:id="@+id/TextView01"
+		android:layout_height="wrap_content"
+		android:text="Geo :"
+		android:textSize="16px"
+		android:layout_width="fill_parent">
+	</TextView>
+	<LinearLayout
+		android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+  		android:gravity="center_horizontal"
+  		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:text="Lat :"
+				android:id="@+id/TextView03"
+				android:textSize="16px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText
+				android:id="@+id/edit_lat"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent">
+			</EditText>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/LinearLayout03"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:text="Long :"
+				android:id="@+id/TextView03"
+				android:textSize="16px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText
+				android:id="@+id/edit_long"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent">
+			</EditText>
+		</LinearLayout>
+</LinearLayout>
+
+
+
+</LinearLayout>
