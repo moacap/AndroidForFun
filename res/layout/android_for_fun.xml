@@ -2,8 +2,10 @@
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
-  android:layout_height="fill_parent" android:orientation="horizontal" android:gravity="center_horizontal">
-<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/picture_button" android:text="Take a Picture"></Button>
-<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/localisation_button" android:text="Get Position"></Button>
+  android:layout_height="fill_parent" android:orientation="vertical" android:gravity="center_horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/picture_1_button" android:text="Take a Picture 1"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/localisation_button" android:text="GPS Position"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/picture_2_button" android:text="Take a Picture 2"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/video_1_button" android:text="Record a Video"></Button>
 
 </LinearLayout>
